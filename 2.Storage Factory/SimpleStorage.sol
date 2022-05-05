@@ -11,8 +11,9 @@ contract SimpleStorage{
         uint256 favoriteNumber;
     }
 
+    //Array of struct objects
     People[] public people;
-
+    //Mapping simliar to Hashmap
     mapping(string => uint256) public nameToFavoriteNumber;
 
     function store(uint256 _favoriteNumber) public {

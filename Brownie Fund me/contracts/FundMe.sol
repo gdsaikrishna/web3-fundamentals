@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
 // Smart Contract to deposit ETH into the contract and withdrawal is only possible by owner
-pragma solidity >=0.6.0 <0.9.0;
+pragma solidity ^0.6.6;
 
 //Latest ETH/USD price from Chainlink Oracle price feed
 import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
